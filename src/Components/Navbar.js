@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import navBarLogo from "../../src/Assets/navBarlogo.png";
 
-function NavBar() {
+function Navbar() {
   const [nav, setNav] = useState(false);
   const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
@@ -130,4 +130,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
