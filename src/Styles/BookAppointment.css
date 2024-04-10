@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 24px;
+  background-color: white;
 }
 /* Image */
 .ba-image-content {
@@ -27,21 +28,20 @@
 }
 .ba-title > span {
   position: relative;
-  color: white;
 }
 .ba-title span::before {
   content: "";
   position: absolute;
   width: 75%;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #9d2553;
   border-radius: 8px;
   left: 0;
   bottom: -12px;
 }
 .ba-description {
   margin: 32px 0;
-  color: rgb(182, 180, 180);
+  color: #4d4b4b;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -54,7 +54,6 @@
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 0.7px;
-  color: rgb(126, 125, 125);
 }
 .ba-check-first {
   margin-top: 40px;
@@ -69,7 +68,7 @@
   border: 1px solid transparent;
   border-radius: 50px;
   outline: transparent;
-  background-color: #1a8efd;
+  background-color: #7d1d55;
   font-size: 20px;
   font-family: "Rubik", sans-serif;
   letter-spacing: 0.8px;
@@ -77,9 +76,9 @@
   transition: all 0.4s ease;
 }
 .ba-appointment-btn:hover {
-  color: #1a8efd;
+  color: #7d1d55;
   background-color: transparent;
-  border: 1px solid #1a8efd;
+  border: 1px solid #7d1d55;
 }
 /* Responsive */
 @media screen and (max-width: 1000px) {

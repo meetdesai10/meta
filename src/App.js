@@ -1,28 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./Pages/Home";
-import Legal from "./Pages/Legal";
-import NotFound from "./Pages/NotFound";
-import Appointment from "./Pages/Appointment";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import Home from "../src/pages/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Router basename="/Health-Plus">
-      <Navbar />
+    <div>
+      <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/legal" element={<Legal />} />
-          <Route path="/appointment" element={<Appointment />} />
-          <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
-
-export default App;
