@@ -33,7 +33,7 @@ function Header() {
       <h1 className="navbar-title">
         <Link to="/">
           <img
-            style={{ height: "75px", width: "230px" }}
+            style={{ height: "77px", width: "210px" }}
             src={navBarLogo}
             alt=""
           />
